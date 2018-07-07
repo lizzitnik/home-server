@@ -24,11 +24,11 @@ app.use(function(req, res, next) {
   next()
 })
 
-app.use(
-    cors({
-        origin: 'https://home-app11.herokuapp.com/'
-    })
-);
+// app.use(
+//     cors({
+//         origin: 'https://home-app11.herokuapp.com/'
+//     })
+// );
 
 passport.use(localStrategy)
 passport.use(jwtStrategy)

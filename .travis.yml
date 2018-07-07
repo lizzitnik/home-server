@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: hSUx5XkZ12hsKgIKGPSqjdPXCmcs+LVttzvj1ytRyQd5gjZqIE5CSnshE+wzg15XZNmaKFTaRfPzhMhnUJlr8KSD29ghIg2erDqS2d+BNF8jb4onzg30iT0t/ZnuiP3Hp1m3R2D75qaDem4KAsmuNuaNFeokEhc/K+3uvp89MOY6Edtn4kkmu5lAx9Jr8Yo9uo/ccYZWhbR6kdntrjgeXqeKjVtszcYNoZNwOjvClfQnJybf4ul0XnsYSLzTMZeSfqNpW32M8+0TQk85KgdYNL816dzOWqRmDQSyDIQTau4r2Aw5FWcOYUDPVENby3U03DQ+cmPgdRi91CjPP2tGknxyaj+5cfiRI3epQzlMnIBP2JO7xkzT7oijIcWcCabrHRP2yKY2t0C6gWPtTue7Ifrpsl+bPk/MnM5ROhAth6IMZPvBa5hHq6fVJ7hAIkSxlN75BLfO79cH/h8q7cOYhv0vzrinLAIFCF3wojlitIQ04Ob49nZ6LL0gdrhPOvfK7viZFfiPss45ufuk/I7wczEEismgu8xK6PgyduE36oXlYUtzeJIWcldkHMHArHCwEfEdoGNFy8xBh8WzE9wVM+Yh8ClVQgvNuJcxd+C93Gk3XCIC8Q8Nd/Yg2U3TsvGIvsJxnn1Ro9/aYwCGX0cpE5mkYB4hgrksG8HypsAV5AQ=
+  app: home-server11
+  on:
+    repo: lizzitnik/home-server
